@@ -74,9 +74,16 @@ def extract_video_id(youtube_url: str):
 
 @st.cache_data(show_spinner=False)
 def get_video_transcript(video_id: str) -> str:
-    ytt_api = YouTubeTranscriptApi()
-    fetched = ytt_api.fetch(video_id)
-    return " ".join(snippet.text for snippet in fetched.snippets)
+    import requests
+    response = requests.get(
+        "https://api.supadata.ai/v1/youtube/transcript",
+        params={"videoId": video_id, "lang": "en"},
+        headers={"x-api-key": st.secrets["SUPADATA_API_KEY"]}
+    )
+    data = response.json()
+    if "content" not in data:
+        raise Exception("Transcript not available for this video")
+    return " ".join([item["text"] for item in data["content"]])
 
 
 # =====================================================
