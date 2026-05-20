@@ -2,9 +2,8 @@
 
 <div align="center">
 
-![YouTube Summarizer Banner]
 <div align="center">
-<img src="assets/diagram_map_reduce.png" width="700"/>
+<img src="assets/diagram_map_reduce.png" width="650"/>
 </div>
 
 **An AI-powered YouTube video summarizer built with Streamlit and Groq LLM.**  
@@ -85,7 +84,9 @@ The app **always fetches the transcript in English**, regardless of the output l
 
 ### End-to-End Pipeline
 
-![End-to-End Pipeline](assets/diagram_pipeline.png)
+<div align="center">
+<img src="assets/diagram_pipeline.png" width="650"/>
+</div>
 
 | Step | What happens |
 |---|---|
@@ -104,7 +105,9 @@ The app **always fetches the transcript in English**, regardless of the output l
 
 ### Map–Reduce Summarization
 
-![Map-Reduce Diagram](assets/diagram_map_reduce.png)
+<div align="center">
+<img src="assets/diagram_map_reduce.png" width="650"/>
+</div>
 
 **Why Map–Reduce?**
 
@@ -125,13 +128,17 @@ Sending a full 2-hour transcript to an LLM in one shot causes token limit errors
 
 ### Transcript to Summary Flow
 
-![Transcript Flow](assets/diagram_transcript.png)
+<div align="center">
+<img src="assets/diagram_transcript.png" width="700"/>
+</div>
 
 ---
 
 ### Translation Architecture
 
-![Translation Architecture](assets/diagram_translation.png)
+<div align="center">
+<img src="assets/diagram_translation.png" width="600"/>
+</div>
 
 Translation is a **single operation** at the reduce step — not per chunk.
 
@@ -143,7 +150,9 @@ Translation is a **single operation** at the reduce step — not per chunk.
 
 ### PDF Unicode Font Detection
 
-![PDF Font Detection](assets/diagram_pdf_font.png)
+<div align="center">
+<img src="assets/diagram_pdf_font.png" width="650"/>
+</div>
 
 The default Helvetica font only supports ASCII/Latin characters.  
 For non-Latin scripts the app auto-detects the script and downloads the matching Google Noto font at runtime.
@@ -164,7 +173,9 @@ For non-Latin scripts the app auto-detects the script and downloads the matching
 
 ### Rate Limit Protection
 
-![Rate Limit Flow](assets/diagram_rate_limit.png)
+<div align="center">
+<img src="assets/diagram_rate_limit.png" width="600"/>
+</div>
 
 The app uses **Groq's free tier** which has strict limits:
 
