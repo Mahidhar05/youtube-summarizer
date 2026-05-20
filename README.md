@@ -2,7 +2,8 @@
 
 <div align="center">
 
-![YouTube Summarizer Banner]<div align="center">
+![YouTube Summarizer Banner]
+<div align="center">
 <img src="assets/diagram_map_reduce.png" width="700"/>
 </div>
 
