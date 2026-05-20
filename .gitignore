@@ -4,3 +4,8 @@ __pycache__/
 .env
 .DS_Store
 .streamlit/secrets.toml
+
+# Add these missing lines
+*.ttf
+*.otf
+requirements.txt.txt
