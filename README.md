@@ -82,8 +82,7 @@ The app **always fetches the transcript in English**, regardless of the output l
 
 ### End-to-End Pipeline
 
-![End-to-End Pipeline](<img width="908" height="3055" alt="mermaid-diagram-2026-05-20-225018" src="https://github.com/user-attachments/assets/90aedf38-f9f3-4e50-915f-91af061df2d8" />
-)
+![End-to-End Pipeline](assets/diagram_pipeline.png)
 
 | Step | What happens |
 |---|---|
