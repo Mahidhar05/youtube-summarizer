@@ -10,7 +10,6 @@
 Paste any YouTube link → get a clean 10–12 bullet summary in seconds.  
 Supports 30+ output languages with Unicode-safe PDF export.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youtube-summarizer-bb5jnp9eburzbwmafmpmoh.streamlit.app/)
 
 🔗 **Live App:** [youtube-summarizer-bb5jnp9eburzbwmafmpmoh.streamlit.app](https://youtube-summarizer-bb5jnp9eburzbwmafmpmoh.streamlit.app/)
 
@@ -85,7 +84,7 @@ The app **always fetches the transcript in English**, regardless of the output l
 ### End-to-End Pipeline
 
 <div align="center">
-<img src="assets/diagram_pipeline.png" width="650"/>
+<img src="assets/diagram_pipeline.png" width="300"/>
 </div>
 
 | Step | What happens |
@@ -106,7 +105,7 @@ The app **always fetches the transcript in English**, regardless of the output l
 ### Map–Reduce Summarization
 
 <div align="center">
-<img src="assets/diagram_map_reduce.png" width="650"/>
+<img src="assets/diagram_map_reduce.png" width="400"/>
 </div>
 
 **Why Map–Reduce?**
@@ -129,7 +128,7 @@ Sending a full 2-hour transcript to an LLM in one shot causes token limit errors
 ### Transcript to Summary Flow
 
 <div align="center">
-<img src="assets/diagram_transcript.png" width="700"/>
+<img src="assets/diagram_transcript.png" width="800"/>
 </div>
 
 ---
@@ -137,7 +136,7 @@ Sending a full 2-hour transcript to an LLM in one shot causes token limit errors
 ### Translation Architecture
 
 <div align="center">
-<img src="assets/diagram_translation.png" width="600"/>
+<img src="assets/diagram_translation.png" width="400"/>
 </div>
 
 Translation is a **single operation** at the reduce step — not per chunk.
@@ -174,7 +173,7 @@ For non-Latin scripts the app auto-detects the script and downloads the matching
 ### Rate Limit Protection
 
 <div align="center">
-<img src="assets/diagram_rate_limit.png" width="600"/>
+<img src="assets/diagram_rate_limit.png" width="400"/>
 </div>
 
 The app uses **Groq's free tier** which has strict limits:
