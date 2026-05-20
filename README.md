@@ -3,7 +3,7 @@
 <div align="center">
 
 <div align="center">
-<img src="assets/diagram_map_reduce.png" width="650"/>
+<img src="assets/diagram_map_reduce.png" width="400"/>
 </div>
 
 **An AI-powered YouTube video summarizer built with Streamlit and Groq LLM.**  
