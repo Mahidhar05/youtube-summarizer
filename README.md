@@ -2,7 +2,9 @@
 
 <div align="center">
 
-![YouTube Summarizer Banner](assets/diagram_pipeline.png)
+![YouTube Summarizer Banner]<div align="center">
+<img src="assets/diagram_map_reduce.png" width="700"/>
+</div>
 
 **An AI-powered YouTube video summarizer built with Streamlit and Groq LLM.**  
 Paste any YouTube link → get a clean 10–12 bullet summary in seconds.  
