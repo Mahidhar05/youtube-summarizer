@@ -1,8 +1,0 @@
-streamlit
-youtube-transcript-api
-langchain
-langchain-community
-langchain-groq
-langchain-text-splitters
-fpdf2
-requests
