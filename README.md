@@ -194,9 +194,3 @@ Built-in protections:
 | Keywords | 8 | Always extract exactly 8 |
 
 ---
-
-<<<<<<< HEAD
-## Supported Output Languages
-=======
-## Supported Output Languages
->>>>>>> 3eb207a76eff22897c0ab02f583828b3dbe7b7d7
